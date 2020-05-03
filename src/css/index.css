@@ -8,16 +8,17 @@
 @import "./reset/typography.css" screen;
 @import "./reset/ie.css" screen;
 
-@primary-color: black;
-@bg: white;
-@header: "Shadows Into Light", cursive;
-@description: "Roboto", sans-serif;
-@marginWrapper: 1em;
-
+:root {
+  --primary-color: black;
+  --bg: white;
+  --header: "Shadows Into Light", cursive;
+  --description: "Roboto", sans-serif;
+  --marginWrapper: 1em;
+}
 body {
-  color: @primary-color;
-  background-color: @bg;
-  margin: @marginWrapper;
+  color: primary-color;
+  background-color: bg;
+  margin: marginWrapper;
 }
 #app,
 #app > article {
