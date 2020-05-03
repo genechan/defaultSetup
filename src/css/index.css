@@ -16,9 +16,9 @@
   --marginWrapper: 1em;
 }
 body {
-  color: primary-color;
-  background-color: bg;
-  margin: marginWrapper;
+  color: var(--primary-color);
+  background-color: var(--bg);
+  margin: var(--marginWrapper);
 }
 #app,
 #app > article {
